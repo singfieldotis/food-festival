@@ -6,9 +6,9 @@
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
-    "start:dev": "webpack-dev-server",
+    "start:dev": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/singfieldotis/food-festival.git"
@@ -25,13 +25,15 @@
     "webpack": "^5.40.0",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^1.16.5"
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "bootstrap": "^5.0.1",
+    "@webpack-cli/serve": "^1.5.1",
+    "bootstrap": "^5.0.2",
+    "cli": "^1.0.1",
     "express": "^4.17.1",
-    "image-webpack-loader": "^4.1.0",
+    "image-webpack-loader": "^4.6.0",
     "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
+    "serve": "^12.0.0"
   }
 }
